@@ -1,7 +1,7 @@
 # Build stage: use node:alpine for a small image
 FROM node:alpine as builder
 
-# Set working directory inside the container
+# Set working directory  inside the container
 WORKDIR /app
 
 # Copy and install dependencies first
